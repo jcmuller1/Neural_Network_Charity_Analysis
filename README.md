@@ -44,7 +44,7 @@ Thirdly, I tried to optimize the model by using a Leaky ReLU activation function
 
 ![op3](resources/op4.PNG)
 
-In the first three optimization attempts, I only made one change relative to the original model. Since the first and third attempts had similar results, I tried combining them and using two hidden layers with 10 neurons each and a Leaky ReLU activation function to see if these two changes would compound. The result was an accuracy of 0.63, showing that adjustments to a model that increased accuracy individually will not always work together to further increase accuracy if implemented simultaneously.
+In the first three optimization attempts, I only made one change relative to the original model. Since the first and third attempts had similar results, I tried combining them and using two hidden layers with 10 neurons each and a Leaky ReLU activation function to see if these two changes would compound. The result was an accuracy of 0.63, showing that adjustments to a model that increased accuracy individually will not always work together to further increase accuracy if implemented simultaneously. The AlphabetSoupCharity_Optimization.h5 file included in this analysis is from this model.
 
 ## Summary
 
