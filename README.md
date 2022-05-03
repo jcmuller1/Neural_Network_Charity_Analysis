@@ -45,3 +45,7 @@ Thirdly, I tried to optimize the model by using a Leaky ReLU activation function
 ![op3](resources/op4.PNG)
 
 In the first three optimization attempts, I only made one change relative to the original model. Since the first and third attempts had similar results, I tried combining them and using two hidden layers with 10 neurons each and a Leaky ReLU activation function to see if these two changes would compound. The result was an accuracy of 0.63, showing that adjustments to a model that increased accuracy individually will not always work together to further increase accuracy if implemented simultaneously.
+
+## Summary
+
+Overall, the deep learning model used in this analysis showed that it was capable of somewhat accurately predicting the success of an organization funded by Alphabet Soup, but some further adjustments should be made before it can be considered reliable. Additional adjustments not used in this analysis could be playing with the number of epochs, either increasing to test whether the model isn't trained enough or decreasing to see if the model is overtrained. Combinations of multiple adjustments beyond the one used in my fourth optimization attempt would also likely provide more insight into the best way to optimize this model.
